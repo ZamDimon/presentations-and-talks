@@ -1,0 +1,6 @@
+# File formats linguist ignores
+*.pbp linguist-vendored
+*.pb linguist-vendored
+*.cfg linguist-vendored
+*.h linguist-vendored
+*.nb linguist-vendored
