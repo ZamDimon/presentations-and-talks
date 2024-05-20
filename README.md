@@ -1,25 +1,11 @@
-# 🧠 Intro to Deep Learning Lecture
-Materials and notes for "Introduction to AI" lectures at _Distributed Lab_.
 
-## 📰 Content
+# :teacher: Presentation and Talks
 
-Presentation in `.pdf` format can be found in the [`presentation.pdf`](presentation.pdf) file.
+This repository contains the source material for presentations and talks given for _Distributed Lab_ internal lectures, scientific conferences etc.
 
-The training and testing is provided in the [`digit_recognition.ipynb`](digit_recognition.ipynb) file. Certain helper functions were used from the [`utils.py`](utils.py) file. 
+## 📰 The List of Lectures
 
-If you want to see source materials for the presentation, see [`tex-source`](tex-source) folder.
-
-## ❔ I want to play around in the Jupyter Notebook: what do I do?
-
-1. Install [Anaconda Navigator](https://docs.anaconda.com/free/navigator/install/)
-2. Create an environment with the required packages installed (it does not matter what versions you choose):
-- TensorFlow
-- Numpy
-- Matplotlib
-
-To install them via a single line, write
-```bash
-pip install -r requirements.txt
-```
-
-3. Open the [`digit_recognition.ipynb`](digit_recognition.ipynb) and play around however you want :)
+| Title | File | Description |
+| --- | ---- | ----------- |
+| :chart_with_upwards_trend: **zkSync: Elliptic Curve Optimizations. EC Pairing.** | [`advanced-ec-lecture`](advanced-ec-lecture) | Lecture about implementing Elliptic Curve (EC) operations efficiently. Basics of EC pairing. |
+| :brain: **Introduction to Deep Learning** | [`deep-learning-intro`](deep-learning-intro) | What are neural networks. Their applications, basic dense neural network, demonstration of MNIST dataset training. |
